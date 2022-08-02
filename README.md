@@ -1,24 +1,17 @@
-# README
+# Commandos usados ate agora
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- rodar servidor `bin/rails server`
+- rodar migration `bin/rails db:migrate`
+- gera um novo migration `bin/rails generate migration nome_do_migration`
+- maluquise `bin/rails console`
+- gera a porra toda `bin/rails generate model Beer title:string body:text`
 
-Things you may want to cover:
+# TODO
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Criar CRUD com relacionamento entre tabelas
+  - 1 to many
+  - 1 to 1
+- Separar handlers do controller principal
+- Criar sistema de authenticação
+- Criar sistema de autorização
+- E chamar uma api externa e retornar o dados.
